@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/*
+cores: 
+vermelho: #AF0B0B
+
+roxo: #4C005B
+
+cinza: #D9D9D9 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;     
+    margin: auto;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.titulo{
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    color:#D9D9D9;
+    float:  left ;
+    padding: 5px;
+    padding-right: 25px;
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+}
+
+.titulo2{
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    padding: 5px;
+    text-align: left;
+    font-size: 30px;
+}
+
+#nav {
+    background-image: linear-gradient(to right, #4C005B,#AF0B0B );
+    border-width: 10000px;
+    position: relative;
+    padding: 10px;
+    border-bottom:rgb(0, 0, 0);
+}
+
+.itens li {
+    color: #ffffff;
+    list-style: none;
+    position: relative;
+    float: right;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 27px;
+    padding-right: 27px;
+}
+
+.perfil {
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    padding:10px;
+    padding-top: 17px;
+
+}
+
+#inicio{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner::before{
+    content: " ";
+    background-image: url(img/parcelar-a-fatura-do-cartao.jpg);
+    background-size:cover;
+    background-position: top;
+    position:absolute;
+    opacity: 0.2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+p{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.btn1{
+position: absolute;
+    background-image: linear-gradient(to right, #4C005B,#AF0B0B );
+    padding: 15px;
+    border-radius: 7px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding-right: 10px;
+} 
+
+.col-1 {width: 8.33%; }
+.col-2 {width: 16.66%;}
+.col-3 {width: 24.99%;}
+.col-4 {width: 33.32%;}
+.col-5 {width: 41.65%;}
+.col-6 {width: 49.98%;}
+.col-7 {width: 58.31%;}
+.col-8 {width: 66.64%;}
+.col-9 {width: 74.97%;}
+.col-10{width: 83.30%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
