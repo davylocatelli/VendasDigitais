@@ -44,6 +44,21 @@ cinza: #D9D9D9 */
     font-size: 30px;
 }
 
+.titulo3{
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    color:#D9D9D9;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+
+a:link{
+    text-decoration: none;
+}
+
 #nav {
     background-image: linear-gradient(to right, #4C005B,#AF0B0B );
     border-width: 10000px;
@@ -104,10 +119,15 @@ p{
 }
 
 .btn1{
-position: absolute;
+    position: absolute;
     background-image: linear-gradient(to right, #4C005B,#AF0B0B );
     padding: 15px;
     border-radius: 7px;
+
+}
+
+#produtos{
+    background-color: #4C005B;
 }
 
 [class*="col-"] {
