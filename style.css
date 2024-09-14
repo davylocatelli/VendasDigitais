@@ -93,7 +93,9 @@ a:link{
     background-color: black;
     color: rgb(255, 255, 255);
     padding-top: 50px;
-    padding-bottom: 120px;   
+    padding-bottom: 120px; 
+    border-bottom: 1px;
+    border-bottom-style: outset;  
 }
 
 .banner{
@@ -129,11 +131,12 @@ p{
 
 #produtos{
     background-color: #4C005B;
+    padding-bottom: 25px;
 }
 
 .card{
-    width: calc(25%-20px);
-    height: 400px;
+    width: 278px;
+    height: 430px;
     margin: 10px;
     padding: 10px;
     background-color: #fff;
@@ -141,23 +144,24 @@ p{
     text-align: center;
     float: left;
     border-radius: 7px;
+    /*opacity: 0;
+    transition: ease-in;*/
 }
 .tcard{
     text-align: center;
     font-size: 20px;
 }
 .card img{
+    object-fit: scale-down;
     width: 200px;
+    height:200px;
 }
 
 .textcard{
     padding: 1px;
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#preço{
-    border: none;
+    text-align: left;
 }
 
 [class*="col-"] {
